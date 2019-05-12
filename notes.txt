@@ -1,1 +1,21 @@
-hello world
+All notes
+
+// set up git
+git remote add origin https://github.com/katratzi/cssgrid.git
+git push -u origin master
+
+// neat! emmet snippet .container>.item*3 
+<div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>    
+</div>
+
+// css variables
+css...
+:root {
+  --yellow: #ffc600;
+  --black: #272727;
+}
+// then use the yellow with 
+border-bottom: 10px solid var(--yellow);
