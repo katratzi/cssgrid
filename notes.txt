@@ -25,3 +25,6 @@ css...
 }
 // then use the yellow with 
 border-bottom: 10px solid var(--yellow);
+
+// to view the grid layout - use firefox and check out the layout tab
+// lots of toggles for viewing explicit vs implicit tracks
