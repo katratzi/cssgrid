@@ -32,3 +32,7 @@ border-bottom: 10px solid var(--yellow);
 // grid sizing... use fr for 'fractional representation'
 // think free space and works as proportions
 /* grid-template-columns: 1fr 1fr 1fr 1fr;
+
+// grid sizing - span rows/columns
+grid-column: span 2;
+grid-row: span 2;
