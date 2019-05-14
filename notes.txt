@@ -28,3 +28,7 @@ border-bottom: 10px solid var(--yellow);
 
 // to view the grid layout - use firefox and check out the layout tab
 // lots of toggles for viewing explicit vs implicit tracks
+
+// grid sizing... use fr for 'fractional representation'
+// think free space and works as proportions
+/* grid-template-columns: 1fr 1fr 1fr 1fr;
