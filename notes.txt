@@ -37,5 +37,13 @@ border-bottom: 10px solid var(--yellow);
 grid-column: span 2;
 grid-row: span 2;
 
+//repeat looks like...
+repeat(4, 1fr 2fr)
+
 // shorthand for grid-column-start & grid-column-end
 grid-column: 1 / span 2;
+
+// auto-fill - adds extra explicit tracks to fill space
+// auto-fit - doesn't add the tracks.
+grid-template-columns: repeat(auto-fill, 150px);
+// can use auto-fill if you want to put something to the corner of the page
