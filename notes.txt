@@ -47,3 +47,6 @@ grid-column: 1 / span 2;
 // auto-fit - doesn't add the tracks.
 grid-template-columns: repeat(auto-fill, 150px);
 // can use auto-fill if you want to put something to the corner of the page
+
+// minmax - this is cool, gives you a nice responsive grid
+grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
