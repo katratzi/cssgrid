@@ -50,3 +50,11 @@ grid-template-columns: repeat(auto-fill, 150px);
 
 // minmax - this is cool, gives you a nice responsive grid
 grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+
+// can name areas (and then also use them as lines) like so
+grid-template-areas: 
+      "sidebar-1  content   sidebar-2"
+      "sidebar-1  content   sidebar-2"
+      "footer     footer    footer"
+
+grid-column: a-start / a-end;  
