@@ -58,3 +58,6 @@ grid-template-areas:
       "footer     footer    footer"
 
 grid-column: a-start / a-end;  
+
+// define line names with [] brackets
+grid-template-columns: [site-left] 1fr [content-start] 500px [content-end] 1fr [site-right];
