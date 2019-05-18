@@ -61,3 +61,9 @@ grid-column: a-start / a-end;
 
 // define line names with [] brackets
 grid-template-columns: [site-left] 1fr [content-start] 500px [content-end] 1fr [site-right];
+
+// select every nth child.
+.item:nth-child(6n) { }
+
+// this fills in gaps...looks neat
+grid-auto-flow: dense;
