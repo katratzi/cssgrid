@@ -67,3 +67,8 @@ grid-template-columns: [site-left] 1fr [content-start] 500px [content-end] 1fr [
 
 // this fills in gaps...looks neat
 grid-auto-flow: dense;
+
+// justify & align in the grid - lots of ways of controlling 
+justify - horizontal!
+align - vertical
+// https://css-tricks.com/snippets/css/complete-guide-grid/
