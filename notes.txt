@@ -72,3 +72,6 @@ grid-auto-flow: dense;
 justify - horizontal!
 align - vertical
 // https://css-tricks.com/snippets/css/complete-guide-grid/
+
+// order property. default is 0...so when you set an element to 1
+// it will apear at the end.  So add an order to all properties
