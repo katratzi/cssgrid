@@ -75,3 +75,6 @@ align - vertical
 
 // order property. default is 0...so when you set an element to 1
 // it will apear at the end.  So add an order to all properties
+
+// css .classname > *
+css for first children of element
