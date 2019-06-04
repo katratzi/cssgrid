@@ -82,3 +82,6 @@ css for first children of element
 // css variables & can override in html
 .item {  --span: 1; grid-column: span var(--span);  }
 <div class="item" style="--span: 7;">
+
+// stop images spilling over
+img { max-width: 100%; }
